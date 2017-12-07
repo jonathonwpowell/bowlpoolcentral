@@ -2,6 +2,8 @@
 
 Thanks for participationg in the bowl pool this year! [Make your picks](https://goo.gl/forms/LWllE1hrIJiwk2RH3) before the first bowl game on December 16th at Noon.
 
+### [Make your picks](https://goo.gl/forms/LWllE1hrIJiwk2RH3)
+
 ## Payment
 
 The cost is $5 to enter, you can either pay [With Paypal]() or mail in a check
