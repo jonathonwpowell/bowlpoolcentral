@@ -9,6 +9,7 @@ The cost is $5 to enter, you can either pay [With Paypal]() or mail in a check
 ## 2017-2018  Bowl Pool Rules
 
 $5.00 entry fee- you can pay via paypal on the website, pay Cameron in person, or mail to:   
+
 ```Cameron Powell  8513 Riddle Place Raleigh NC 27615 (New address)```  
 __Please remember to pay:  the director has a hard time covering payment for everyone.__  
 Entries must be received by the first game Dec. 16th at 12:00 PM
@@ -32,5 +33,6 @@ last place gets you your $5.00 back
 * 2nd place = 25% payout
 * 3rd place = 15% payout 
 * 4th place = 10% payout
+
 ### THE PARTY
 Details to come. We are planning on having the party on New Year’s day this year at Cameron’s address at 8513 Riddle place Raleigh 27615. Party details pending.
