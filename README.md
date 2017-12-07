@@ -6,13 +6,15 @@ Thanks for participationg in the bowl pool this year! [Make your picks](https://
 
 ## Payment
 
-The cost is $5 to enter, you can either pay [With Paypal]() or mail in a check
+The cost is $5 to enter, you can either pay with Paypal (coming soon) or mail in a check.  Paypal is $5.50 as Paypal takes a cut.
 
 ## 2017-2018  Bowl Pool Rules
 
 $5.00 entry fee- you can pay via paypal on the website, pay Cameron in person, or mail to:   
+> Cameron Powell  
+> 8513 Riddle Place  
+> Raleigh NC 27615   
 
-```Cameron Powell  8513 Riddle Place Raleigh NC 27615 (New address)```  
 __Please remember to pay:  the director has a hard time covering payment for everyone.__  
 Entries must be received by the first game Dec. 16th at 12:00 PM
 ### THE DETAILS
