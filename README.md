@@ -6,7 +6,7 @@ Thanks for participationg in the bowl pool this year! [Make your picks](https://
 
 ## Payment
 
-The cost is $5 to enter, you can either pay with [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=bowlpooldirector@gmail.com%40gmail%2ecom&lc=US&item_name=Bowl%20Pool%20Central&amount=5%2e50&currency_code=USD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted) or mail in a check.  Paypal is $5.50 as Paypal takes a cut.
+The cost is $5 to enter, you can either pay with [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=bowlpooldirector%40gmail%2ecom&lc=US&item_name=Bowl%20Pool%20Central&amount=5%2e50&currency_code=USD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted) or mail in a check.  Paypal is $5.50 as Paypal takes a cut.
 
 ## 2017-2018  Bowl Pool Rules
 
