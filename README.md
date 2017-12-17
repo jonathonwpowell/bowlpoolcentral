@@ -4,7 +4,9 @@ Thanks for participationg in the bowl pool this year! As the first game has been
 
 # Standings
 
-![Bowl Pool Standings](<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQoNGJqulrdkxwY-BB26y7tABiqLuRtPmgQdgEFv387IHtFZpbAcpvaTmzDkqCfI5pLywnyfwL4njyI/pubchart?oid=182291955&amp;format=interactive"></iframe>)
+## Top 10
+
+![Top 10](https://docs.google.com/spreadsheets/d/e/2PACX-1vQoNGJqulrdkxwY-BB26y7tABiqLuRtPmgQdgEFv387IHtFZpbAcpvaTmzDkqCfI5pLywnyfwL4njyI/pubchart?oid=286334937&format=image)
 
 ## Payment
 
