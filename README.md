@@ -8,6 +8,9 @@ Thanks for participationg in the bowl pool this year! As the first game has been
 
 ![Top 10](https://docs.google.com/spreadsheets/d/e/2PACX-1vQoNGJqulrdkxwY-BB26y7tABiqLuRtPmgQdgEFv387IHtFZpbAcpvaTmzDkqCfI5pLywnyfwL4njyI/pubchart?oid=286334937&format=image)
 
+## [Everyones Picks](https://docs.google.com/spreadsheets/d/12K-dZ5_FnyVbcPrqWmjDDBodOyKIJ1Zi_EOaXCTz2G0/edit?usp=sharing)
+Spreadsheet of everyones [picks](https://docs.google.com/spreadsheets/d/12K-dZ5_FnyVbcPrqWmjDDBodOyKIJ1Zi_EOaXCTz2G0/edit?usp=sharing)
+
 ## Payment
 
 The cost is $5 to enter, you can either pay with [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=bowlpooldirector%40gmail%2ecom&lc=US&item_name=Bowl%20Pool%20Central&amount=5%2e50&currency_code=USD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted) or mail in a check.  Paypal is $5.50 as Paypal takes a cut.
