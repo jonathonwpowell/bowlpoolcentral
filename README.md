@@ -4,11 +4,16 @@ Thanks for participationg in the bowl pool this year! As the first game has been
 
 # Standings
 
-## Top 10
+### Top 10
 
 ![Top 10](https://docs.google.com/spreadsheets/d/e/2PACX-1vQoNGJqulrdkxwY-BB26y7tABiqLuRtPmgQdgEFv387IHtFZpbAcpvaTmzDkqCfI5pLywnyfwL4njyI/pubchart?oid=286334937&format=image)
 
-## [Everyones Picks](https://docs.google.com/spreadsheets/d/12K-dZ5_FnyVbcPrqWmjDDBodOyKIJ1Zi_EOaXCTz2G0/edit?usp=sharing)
+### Standings
+
+Get the [full standings here](https://jonathonwpowell.github.io/bowlpoolcentral/standings/)
+
+### Everyones Picks
+
 Spreadsheet of everyones [picks](https://docs.google.com/spreadsheets/d/12K-dZ5_FnyVbcPrqWmjDDBodOyKIJ1Zi_EOaXCTz2G0/edit?usp=sharing)
 
 ## Payment
