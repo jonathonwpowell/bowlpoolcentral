@@ -8,7 +8,7 @@ Thanks for participationg in the bowl pool this year! As the first game has been
 
 ![Top 10](https://docs.google.com/spreadsheets/d/e/2PACX-1vQoNGJqulrdkxwY-BB26y7tABiqLuRtPmgQdgEFv387IHtFZpbAcpvaTmzDkqCfI5pLywnyfwL4njyI/pubchart?oid=286334937&format=image)
 
-### Standings
+### Full Standings
 
 Get the [full standings here](https://jonathonwpowell.github.io/bowlpoolcentral/standings/)
 
