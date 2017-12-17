@@ -1,16 +1,24 @@
 # Welcome to Bowl Pool Central
 
-Thanks for participationg in the bowl pool this year! [Make your picks](https://goo.gl/forms/LWllE1hrIJiwk2RH3) before the first bowl game on December 16th at Noon.
+Thanks for participationg in the bowl pool this year! As the first game has been played picking is done for this year.
+
+# Standings
+
+## Top 10
+
+![Top 10](https://docs.google.com/spreadsheets/d/e/2PACX-1vQoNGJqulrdkxwY-BB26y7tABiqLuRtPmgQdgEFv387IHtFZpbAcpvaTmzDkqCfI5pLywnyfwL4njyI/pubchart?oid=286334937&format=image)
 
 ## Payment
 
-The cost is $5 to enter, you can either pay [With Paypal]() or mail in a check
+The cost is $5 to enter, you can either pay with [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=bowlpooldirector%40gmail%2ecom&lc=US&item_name=Bowl%20Pool%20Central&amount=5%2e50&currency_code=USD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted) or mail in a check.  Paypal is $5.50 as Paypal takes a cut.
 
 ## 2017-2018  Bowl Pool Rules
 
 $5.00 entry fee- you can pay via paypal on the website, pay Cameron in person, or mail to:   
+> Cameron Powell  
+> 8513 Riddle Place  
+> Raleigh NC 27615   
 
-```Cameron Powell  8513 Riddle Place Raleigh NC 27615 (New address)```  
 __Please remember to pay:  the director has a hard time covering payment for everyone.__  
 Entries must be received by the first game Dec. 16th at 12:00 PM
 ### THE DETAILS
