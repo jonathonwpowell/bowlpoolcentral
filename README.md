@@ -1,8 +1,10 @@
 # Welcome to Bowl Pool Central
 
-Thanks for participationg in the bowl pool this year! [Make your picks](https://goo.gl/forms/LWllE1hrIJiwk2RH3) before the first bowl game on December 16th at Noon.
+Thanks for participationg in the bowl pool this year! As the first game has been played picking is done for this year.
 
-### [Make your picks](https://goo.gl/forms/LWllE1hrIJiwk2RH3)
+# Standings
+
+![Bowl Pool Standings](https://docs.google.com/spreadsheets/d/e/2PACX-1vQoNGJqulrdkxwY-BB26y7tABiqLuRtPmgQdgEFv387IHtFZpbAcpvaTmzDkqCfI5pLywnyfwL4njyI/pubchart?oid=182291955&format=image)
 
 ## Payment
 
