@@ -12,6 +12,9 @@ Thanks for participationg in the bowl pool this year! As the first game has been
 
 Get the [full standings here](https://jonathonwpowell.github.io/bowlpoolcentral/standings/)
 
+### My Picks
+To see your picks, go to [this spreadsheet](https://docs.google.com/spreadsheets/d/12K-dZ5_FnyVbcPrqWmjDDBodOyKIJ1Zi_EOaXCTz2G0/edit#gid=202079402) and change the name to see your picks.  Please keep in mind this is a shared sheet, so multiple people can't look at different things at the same time.  Also for mobile users you will have to use the google sheets app.
+
 ### Everyones Picks
 
 Spreadsheet of everyones [picks](https://docs.google.com/spreadsheets/d/12K-dZ5_FnyVbcPrqWmjDDBodOyKIJ1Zi_EOaXCTz2G0/edit?usp=sharing)
