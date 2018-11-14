@@ -1,14 +1,14 @@
 {
-  "main.css": "/jonathonwpowell/bowlpoolcentral.git/static/css/main.ea253550.chunk.css",
-  "main.js": "/jonathonwpowell/bowlpoolcentral.git/static/js/main.67adc72c.chunk.js",
-  "main.js.map": "/jonathonwpowell/bowlpoolcentral.git/static/js/main.67adc72c.chunk.js.map",
-  "static/js/1.0ab5ba3d.chunk.js": "/jonathonwpowell/bowlpoolcentral.git/static/js/1.0ab5ba3d.chunk.js",
-  "static/js/1.0ab5ba3d.chunk.js.map": "/jonathonwpowell/bowlpoolcentral.git/static/js/1.0ab5ba3d.chunk.js.map",
-  "runtime~main.js": "/jonathonwpowell/bowlpoolcentral.git/static/js/runtime~main.43670302.js",
-  "runtime~main.js.map": "/jonathonwpowell/bowlpoolcentral.git/static/js/runtime~main.43670302.js.map",
-  "static/media/logo.svg": "/jonathonwpowell/bowlpoolcentral.git/static/media/logo.ee7cd8ed.svg",
-  "static/css/main.ea253550.chunk.css.map": "/jonathonwpowell/bowlpoolcentral.git/static/css/main.ea253550.chunk.css.map",
-  "index.html": "/jonathonwpowell/bowlpoolcentral.git/index.html",
-  "precache-manifest.0fefbbab7c6de122d16ddc69a45c9aad.js": "/jonathonwpowell/bowlpoolcentral.git/precache-manifest.0fefbbab7c6de122d16ddc69a45c9aad.js",
-  "service-worker.js": "/jonathonwpowell/bowlpoolcentral.git/service-worker.js"
+  "main.css": "/jonathonwpowell/bowlpoolcentral/static/css/main.ea253550.chunk.css",
+  "main.js": "/jonathonwpowell/bowlpoolcentral/static/js/main.6663a6a1.chunk.js",
+  "main.js.map": "/jonathonwpowell/bowlpoolcentral/static/js/main.6663a6a1.chunk.js.map",
+  "static/js/1.0ab5ba3d.chunk.js": "/jonathonwpowell/bowlpoolcentral/static/js/1.0ab5ba3d.chunk.js",
+  "static/js/1.0ab5ba3d.chunk.js.map": "/jonathonwpowell/bowlpoolcentral/static/js/1.0ab5ba3d.chunk.js.map",
+  "runtime~main.js": "/jonathonwpowell/bowlpoolcentral/static/js/runtime~main.7fd9bbea.js",
+  "runtime~main.js.map": "/jonathonwpowell/bowlpoolcentral/static/js/runtime~main.7fd9bbea.js.map",
+  "static/media/logo.svg": "/jonathonwpowell/bowlpoolcentral/static/media/logo.ee7cd8ed.svg",
+  "static/css/main.ea253550.chunk.css.map": "/jonathonwpowell/bowlpoolcentral/static/css/main.ea253550.chunk.css.map",
+  "index.html": "/jonathonwpowell/bowlpoolcentral/index.html",
+  "precache-manifest.7d5e8978754333e07534c41f78643334.js": "/jonathonwpowell/bowlpoolcentral/precache-manifest.7d5e8978754333e07534c41f78643334.js",
+  "service-worker.js": "/jonathonwpowell/bowlpoolcentral/service-worker.js"
 }
