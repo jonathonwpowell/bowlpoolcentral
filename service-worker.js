@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/joanthonwpowell/bowlpoolcentral.git/precache-manifest.5e75578a34e0d248876b012eef2358ef.js"
+  "/joanthonwpowell/bowlpoolcentral.git/precache-manifest.8d785e88bb1efbdf87f57fd1b489d93b.js"
 );
 
 workbox.clientsClaim();
