@@ -1,14 +1,14 @@
 {
-  "main.css": "/jonathonwpowell/bowlpoolcentral/static/css/main.ea253550.chunk.css",
-  "main.js": "/jonathonwpowell/bowlpoolcentral/static/js/main.6663a6a1.chunk.js",
-  "main.js.map": "/jonathonwpowell/bowlpoolcentral/static/js/main.6663a6a1.chunk.js.map",
-  "static/js/1.0ab5ba3d.chunk.js": "/jonathonwpowell/bowlpoolcentral/static/js/1.0ab5ba3d.chunk.js",
-  "static/js/1.0ab5ba3d.chunk.js.map": "/jonathonwpowell/bowlpoolcentral/static/js/1.0ab5ba3d.chunk.js.map",
-  "runtime~main.js": "/jonathonwpowell/bowlpoolcentral/static/js/runtime~main.7fd9bbea.js",
-  "runtime~main.js.map": "/jonathonwpowell/bowlpoolcentral/static/js/runtime~main.7fd9bbea.js.map",
-  "static/media/logo.svg": "/jonathonwpowell/bowlpoolcentral/static/media/logo.ee7cd8ed.svg",
-  "static/css/main.ea253550.chunk.css.map": "/jonathonwpowell/bowlpoolcentral/static/css/main.ea253550.chunk.css.map",
-  "index.html": "/jonathonwpowell/bowlpoolcentral/index.html",
-  "precache-manifest.7d5e8978754333e07534c41f78643334.js": "/jonathonwpowell/bowlpoolcentral/precache-manifest.7d5e8978754333e07534c41f78643334.js",
-  "service-worker.js": "/jonathonwpowell/bowlpoolcentral/service-worker.js"
+  "main.css": "/bowlpoolcentral/static/css/main.ea253550.chunk.css",
+  "main.js": "/bowlpoolcentral/static/js/main.9c9ff865.chunk.js",
+  "main.js.map": "/bowlpoolcentral/static/js/main.9c9ff865.chunk.js.map",
+  "static/js/1.0ab5ba3d.chunk.js": "/bowlpoolcentral/static/js/1.0ab5ba3d.chunk.js",
+  "static/js/1.0ab5ba3d.chunk.js.map": "/bowlpoolcentral/static/js/1.0ab5ba3d.chunk.js.map",
+  "runtime~main.js": "/bowlpoolcentral/static/js/runtime~main.04a2c114.js",
+  "runtime~main.js.map": "/bowlpoolcentral/static/js/runtime~main.04a2c114.js.map",
+  "static/media/logo.svg": "/bowlpoolcentral/static/media/logo.ee7cd8ed.svg",
+  "static/css/main.ea253550.chunk.css.map": "/bowlpoolcentral/static/css/main.ea253550.chunk.css.map",
+  "index.html": "/bowlpoolcentral/index.html",
+  "precache-manifest.e9ec4bc4045972240046b4cf6ac0923f.js": "/bowlpoolcentral/precache-manifest.e9ec4bc4045972240046b4cf6ac0923f.js",
+  "service-worker.js": "/bowlpoolcentral/service-worker.js"
 }

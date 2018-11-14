@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jonathonwpowell/bowlpoolcentral/precache-manifest.7d5e8978754333e07534c41f78643334.js"
+  "/bowlpoolcentral/precache-manifest.e9ec4bc4045972240046b4cf6ac0923f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/jonathonwpowell/bowlpoolcentral/index.html", {
+workbox.routing.registerNavigationRoute("/bowlpoolcentral/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
