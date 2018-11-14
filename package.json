@@ -4,8 +4,11 @@
   "private": true,
   "homepage": "https://github.com/joanthonwpowell/bowlpoolcentral.git",
   "dependencies": {
+    "plotly.js": "^1.42.5",
+    "plotly.js-dist": "^1.42.5",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-plotly.js": "^2.2.0",
     "react-scripts": "2.1.1"
   },
   "scripts": {
