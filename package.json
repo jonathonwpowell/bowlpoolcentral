@@ -2,7 +2,7 @@
   "name": "bowlpoolcentral",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jonathonwpowell.github.com/bowlpoolcentral",
+  "homepage": "https://bowlpoolcentral.com",
   "dependencies": {
     "plotly.js-dist": "^1.42.5",
     "react": "^16.6.3",
@@ -15,7 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
