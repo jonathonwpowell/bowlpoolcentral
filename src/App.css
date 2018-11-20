@@ -3,13 +3,13 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  margin-top: 5px;
   height: 5vmin;
 }
 
 .App-header {
+  width: 100vw;
   background-color: #282c34;
-  min-height: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;

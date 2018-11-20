@@ -1,11 +1,8 @@
-import config from "./api-config";
-
-
 export function parseSheet(sheet) {
     var values = sheet;
-    var games = createGamesObject(values[0]);
-    var winners = createWinnersObject(values[3]);
-    var players = createPlayerObjects(values.slice(3));
+    var games = createGamesList(values[0]);
+    var winners = createWinnersList(values[3]);
+    var players = createPlayerList(values.slice(3));
 
     var bowl = {
         games: games,
@@ -24,7 +21,7 @@ export function getWinsBarData(bowlPoolData) {
     return winsBarData;
 }
 
-function createGamesObject(games) {
+function createGamesList(games) {
     var gamesArray = [];
     for(var i = 0; i < games.length; i++) {
         if (i < 2) {
@@ -38,7 +35,7 @@ function createGamesObject(games) {
     return gamesArray;
 }
 
-function createWinnersObject(winners) {
+function createWinnersList(winners) {
     var winnersArray = [];
 
     for(var i = 0; i < winners.length; i++) {
@@ -53,23 +50,26 @@ function createWinnersObject(winners) {
     return winnersArray;
 }
 
-function createPlayerObjects(players) {
-    var playersObject = {};
+function createPlayerList(players) {
+    var playerList = [];
+    var playerObject = {};
     for (var playerNum in players) {
         var player = players[playerNum];
-        var playerName = player[0];
-        playersObject[playerName] = { picks: [], wins : 0};
+        playerObject = { picks: [], wins : 0};
+        playerObject.key = playerNum;
         for(var i = 0; i < player.length; i++) {
             if (i === 0 ) {
-                playersObject[playerName].name = player[0];
+                playerObject.name = player[0];
             } else if (i === 1) {
-                playersObject[playerName].wins = player[i];
+                playerObject.wins = player[i];
             } else {
-                playersObject[playerName].picks.push(player[i]);
+                playerObject.picks.push(player[i]);
             }
         }
+        playerList.push(playerObject);
     }
 
-    return playersObject;
+    playerList.sort((a,b) => {return b.wins - a.wins;})
+    return playerList;
 }
 

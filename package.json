@@ -4,9 +4,14 @@
   "private": true,
   "homepage": "https://bowlpoolcentral.com",
   "dependencies": {
+    "@material-ui/core": "^3.5.1",
+    "debug": "^4.1.0",
+    "install": "^0.12.2",
+    "npm": "^6.4.1",
     "plotly.js-dist": "^1.42.5",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-event-listener": "^0.6.4",
     "react-google-charts": "^3.0.10",
     "react-scripts": "2.1.1"
   },
