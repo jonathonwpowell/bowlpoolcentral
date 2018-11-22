@@ -4,15 +4,23 @@ import './App.css';
 import WinsBar from './components/WinsBar';
 import config from "./common/api-config";
 import PlayerList from "./components/PlayerList";
+import MultiPlayer from "./components/MultiPlayer"
+import Menu from "./components/Menu"
 import Paper from '@material-ui/core/Paper';
 import { load } from "./common/spreadsheet";
+import IconButton from '@material-ui/core/IconButton';
 
 class App extends Component {
 
   state = {
     bowlPool: {},
     searchPlayerList: [],
-    error: null
+    error: null,
+    page: "Home",
+  }
+
+  setPage = (value) => {
+    this.setState({page: value})
   }
 
   playerSearch(query) {
@@ -55,16 +63,29 @@ class App extends Component {
     return (
         <div className="App">
           <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-              Bowl Pool Central
+            <Menu setPage={this.setPage} />
+            <div className={"site-name"}>Bowl Pool Central</div>
           </header>
-          {/* <Search playerSearch={this.playerSearch.bind(this)}/> */}
+          {this.state.page === "Home" ?
           <Paper>
-          <PlayerList playerList={this.state.searchPlayerList} playerSearch={this.playerSearch.bind(this)}/>
+            <div>
+              Home
+            </div>
           </Paper>
+          : null}
+          {this.state.page === "PlayerList" ?
+            <Paper>
+            <PlayerList playerList={this.state.searchPlayerList} playerSearch={this.playerSearch.bind(this)}/>
+            </Paper>
+            : null}
+          {this.state.page === "Wins" ?
           <Paper>
           <WinsBar bowlPool={this.state.bowlPool}/>
           </Paper>
+          : null}
+          {this.state.page === "MultiPlayer" ?
+          <Paper><MultiPlayer bowlPool={this.state.bowlPool}/></Paper>
+          : null}
         </div>
     );
   }

@@ -22,7 +22,7 @@ class PlayerList extends React.Component {
         
         for (var key in playerList) {
             var p = playerList[key];
-            listItems.push(<TableRow key={p.key}>
+            listItems.push(<TableRow key={p.value}>
                                 <TableCell>{p.wins}</TableCell>
                                 <TableCell>{p.name}</TableCell>
                            </TableRow>)

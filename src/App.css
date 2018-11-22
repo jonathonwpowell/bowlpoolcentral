@@ -9,17 +9,20 @@
 
 .App-header {
   width: 100vw;
-  background-color: #282c34;
+  background-color: #009900;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.main-menu-container {
+  align-self: baseline;
+  display: inline;
 }
 
 @keyframes App-logo-spin {
