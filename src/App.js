@@ -9,6 +9,7 @@ import Menu from "./components/Menu"
 import Paper from '@material-ui/core/Paper';
 import { load } from "./common/spreadsheet";
 import IconButton from '@material-ui/core/IconButton';
+import Dashboard from "./template/Dashboard";
 
 class App extends Component {
 
@@ -17,10 +18,6 @@ class App extends Component {
     searchPlayerList: [],
     error: null,
     page: "Home",
-  }
-
-  setPage = (value) => {
-    this.setState({page: value})
   }
 
   playerSearch(query) {
@@ -62,14 +59,14 @@ class App extends Component {
   render() {
     return (
         <div className="App">
-          <header className="App-header">
+          {/* <header className="App-header">
             <Menu setPage={this.setPage} />
             <div className={"site-name"}>Bowl Pool Central</div>
-          </header>
+          </header> */}
           {this.state.page === "Home" ?
           <Paper>
             <div>
-              Home
+              <Dashboard bowlPool={this.state.bowlPool} playerList={this.state.searchPlayerList} playerSearch={this.playerSearch.bind(this)} bowlPool={this.state.bowlPool} />
             </div>
           </Paper>
           : null}
