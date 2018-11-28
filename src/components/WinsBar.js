@@ -1,34 +1,36 @@
-import React, { Component } from 'react';
-import Chart from 'react-google-charts';
+import React, { Component } from "react";
+import Chart from "react-google-charts";
 import { getWinsBarData } from "../common/helper";
 
 class WinsBar extends Component {
-
   render() {
-    const {bowlPool} = this.props
+    const { bowlPool } = this.props;
     if (bowlPool.games) {
-      return <Chart
-            width={'500px'}
-            height={'1000px'}
-            chartType="BarChart"
-            loader={<div>Loading Chart</div>}
-            data = {getWinsBarData(bowlPool)}
-            options={{
-                title: 'Wins by Player',
-                hAxis: {
-                title: 'Wins',
-                minValue: 0,
-                },
-                vAxis: {
-                title: 'Player Name',
-                },
-            }}
-      />
+      return (
+        <Chart
+          width={"85vw"}
+          height={"80vh"}
+          chartType="Histogram"
+          loader={<div>Loading Chart</div>}
+          data={getWinsBarData(bowlPool)}
+          options={{
+            histogram: {
+              bucketSize: 2
+            },
+            title: "Standings",
+            hAxis: {
+              title: "Wins"
+            },
+            vAxis: {
+              title: "Frequency"
+            },
+            legend: { position: "none" }
+          }}
+        />
+      );
     }
-    return (
-      <div></div>
-    );
+    return <div />;
   }
 }
 
-export default WinsBar
+export default WinsBar;
