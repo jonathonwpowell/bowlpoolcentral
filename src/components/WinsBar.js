@@ -8,7 +8,7 @@ class WinsBar extends Component {
     if (bowlPool.games) {
       return (
         <Chart
-          width={"85vw"}
+          width={"100%"}
           height={"80vh"}
           chartType="Histogram"
           loader={<div>Loading Chart</div>}
@@ -17,13 +17,14 @@ class WinsBar extends Component {
             histogram: {
               bucketSize: 2
             },
-            title: "Standings",
+            title: "Win Histogram",
             hAxis: {
               title: "Wins"
             },
             vAxis: {
               title: "Frequency"
             },
+            chartArea: { left: 60, width: "85%" },
             legend: { position: "none" }
           }}
         />
