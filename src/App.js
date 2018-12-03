@@ -5,12 +5,13 @@ import config from "./common/api-config";
 import PlayerList from "./components/PlayerList";
 import MultiPlayer from "./components/MultiPlayer";
 import Paper from "@material-ui/core/Paper";
-import { load } from "./common/spreadsheet";
+import { loadMainSheet, loadGamesSheet } from "./common/spreadsheet";
 import Dashboard from "./components/Dashboard";
 
 class App extends Component {
   state = {
     bowlPool: {},
+    gameDetails: {},
     searchPlayerList: [],
     error: null,
     page: "Home"
@@ -39,16 +40,26 @@ class App extends Component {
       })
       .then(() => {
         // 3. Initialize and make the API request.
-        load(this.onLoad);
+        loadMainSheet(this.onLoadMainSheet);
+        loadGamesSheet(this.onLoadGamesSheet);
       });
   };
 
-  onLoad = (data, error) => {
+  onLoadMainSheet = (data, error) => {
     if (data) {
       const bowlPool = data.bowlPool;
       this.setState({ bowlPool });
       this.setState({ searchPlayerList: bowlPool.players });
       this.playerSearch("");
+    } else {
+      this.setState({ error });
+    }
+  };
+
+  onLoadGamesSheet = (data, error) => {
+    if (data) {
+      const gameDetails = data.gameDetails;
+      this.setState({ gameDetails });
     } else {
       this.setState({ error });
     }
@@ -68,6 +79,7 @@ class App extends Component {
                 bowlPool={this.state.bowlPool}
                 playerList={this.state.searchPlayerList}
                 playerSearch={this.playerSearch.bind(this)}
+                gameDetails={this.state.gameDetails}
               />
             </div>
           </Paper>

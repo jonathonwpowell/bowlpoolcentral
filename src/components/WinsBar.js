@@ -8,7 +8,7 @@ class WinsBar extends Component {
     if (bowlPool.games) {
       return (
         <Chart
-          width={"100%"}
+          width={"80vw"}
           height={"80vh"}
           chartType="Histogram"
           loader={<div>Loading Chart</div>}

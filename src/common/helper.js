@@ -12,6 +12,24 @@ export function parseSheet(sheet) {
 
   return bowl;
 }
+
+export function parseGamesPage(sheet) {
+  var gamesObject = {};
+  for (var i = 0; i < sheet.length; i++) {
+    var gameObject = {
+      name: sheet[i][0],
+      time: new Date(sheet[i][1]),
+      location: sheet[i][2],
+      network: sheet[i][3],
+      favorite: sheet[i][4],
+      underdog: sheet[i][5],
+      spread: sheet[i][6]
+    };
+    gamesObject[gameObject.name] = gameObject;
+  }
+  return gamesObject;
+}
+
 export function getWinsBarData(bowlPoolData) {
   var winsBarData = [["Wins", "Frequency"]];
   for (var p in bowlPoolData.players) {

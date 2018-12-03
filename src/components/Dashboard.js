@@ -264,7 +264,9 @@ class Dashboard extends React.Component {
             </div>
           ) : null}
           {this.state.page === "Rules" ? <RulesPage /> : null}
-          {this.state.page === "Games" ? <GamesPage /> : null}
+          {this.state.page === "Games" ? (
+            <GamesPage gameDetails={this.props.gameDetails} />
+          ) : null}
           {this.state.page === "Player Compare" ? (
             <MultiPlayer bowlPool={this.props.bowlPool} />
           ) : null}

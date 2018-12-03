@@ -1,12 +1,12 @@
 import config from "./api-config";
-import { parseSheet } from "./helper";
+import { parseSheet, parseGamesPage } from "./helper";
 
-export function load(callback) {
+export function loadMainSheet(callback) {
   window.gapi.client.load("sheets", "v4", () => {
     window.gapi.client.sheets.spreadsheets.values
       .get({
         spreadsheetId: config.spreadsheetId,
-        range: "A1:AZ100"
+        range: "Full_Data!A1:AZ100"
       })
       .then(
         response => {
@@ -14,6 +14,28 @@ export function load(callback) {
           const bowlPool = parseSheet(data) || [];
           callback({
             bowlPool
+          });
+        },
+        response => {
+          callback(false, response.result.error);
+        }
+      );
+  });
+}
+
+export function loadGamesSheet(callback) {
+  window.gapi.client.load("sheets", "v4", () => {
+    window.gapi.client.sheets.spreadsheets.values
+      .get({
+        spreadsheetId: config.spreadsheetId,
+        range: "Games!A2:AZ100"
+      })
+      .then(
+        response => {
+          const data = response.result.values;
+          const gameDetails = parseGamesPage(data) || [];
+          callback({
+            gameDetails
           });
         },
         response => {

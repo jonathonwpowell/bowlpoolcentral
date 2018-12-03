@@ -29,21 +29,21 @@ class HomePage extends React.Component {
         </Typography>
         <Typography component="div">
           All bowl games except the semifinals and finals are worth one point
-          for a total of 38 points. The semifinals games (2) are worth 2 points
-          for a total of 4 points. The finals game (1) is worth 4 points.
-          Correctly pick both teams in the finals you receive 1 bonus point. Add
-          it all up for a total of 47 Points
+          for a total of 38 points.
+          <br />
+          The semifinals games (2) are worth 2 points for a total of 4 points.
+          <br />
+          The finals game (1) is worth 4 points.
+          <br />
+          Correctly pick both teams in the finals you receive 1 bonus point.
+          <br />
+          Add it all up for a total of 47 Points
         </Typography>
         <br />
         <Typography variant="h5" gutterBottom component="h2">
           Tiebreaker
         </Typography>
-        <Typography component="div">
-          Total points scored by Duke, NCSU, Wake Forest and in their bowl
-          games. This total does not include points scored by their opponents,
-          just by the adding the point totals of the 3 teams above.(Not
-          including spreads)
-        </Typography>
+        <Typography component="div">TBD</Typography>
         <br />
         <Typography variant="h5" gutterBottom component="h2">
           The Spread
@@ -74,16 +74,16 @@ class HomePage extends React.Component {
           choose the other team to be in the finals. For example if TCU and Navy
           were playing in the semifinals and Navy is a 10 point underdog, but
           TCU wins by 7 points. You could choose Navy to win this game with the
-          spread win (2 points) and also pick TCU to move on to the
-          finals--which if you choose both finalists correctly would get you an
-          extra 1 point.
+          spread win (2 points) and also pick TCU to move on to the finals,
+          which if you choose both finalists correctly would get you an extra 1
+          point.
         </Typography>
         <br />
         <Typography variant="h5" gutterBottom component="h2">
           Payout
         </Typography>
         <Typography component="div">
-          last place gets you your $5.00 back
+          Last place gets you your $5.00 back
           <br />
           1st place = 50% payout
           <br />
