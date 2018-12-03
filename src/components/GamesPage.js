@@ -42,7 +42,7 @@ class GamesPage extends React.Component {
   getTodaysGames = gameDetails => {
     var games = [];
     for (var key in gameDetails) {
-      if (gameDetails[key].time.getDate() === new Date("12/15/18").getDate()) {
+      if (gameDetails[key].time.getDate() === new Date().getDate()) {
         games.push(this.gameDisplay(gameDetails[key]));
       }
     }
@@ -59,6 +59,7 @@ class GamesPage extends React.Component {
 
   render() {
     var gameDetails = this.props.gameDetails;
+    var todaysGames = this.getTodaysGames(gameDetails);
 
     return (
       <div>
@@ -66,17 +67,20 @@ class GamesPage extends React.Component {
           <Typography variant="h5" gutterBottom component="h2">
             Today's Games
           </Typography>
-          <Table>
-            <TableHead>{this.getHeaderRow()}</TableHead>
-            <TableBody>{this.getTodaysGames(gameDetails)}</TableBody>
-          </Table>
+          {todaysGames.length !== 0 ? (
+            <Table>
+              <TableHead>{this.getHeaderRow()}</TableHead>
+              <TableBody>{todaysGames}</TableBody>
+            </Table>
+          ) : (
+            <div> No Games Today :(</div>
+          )}
         </div>
-
         <div style={{ marginTop: "30px" }}>
           <Typography variant="h5" gutterBottom component="h2">
             All Games
           </Typography>
-          <Table>
+          <Table padding={"dense"}>
             <TableHead>{this.getHeaderRow()}</TableHead>
             <TableBody>{this.getAllGames(gameDetails)}</TableBody>
           </Table>
