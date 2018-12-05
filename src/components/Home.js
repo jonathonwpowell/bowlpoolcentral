@@ -28,73 +28,10 @@ class HomePage extends React.Component {
           Details
         </Typography>
         <Typography component="div">
-          All bowl games except the semifinals and finals are worth one point
-          for a total of 38 points.
-          <br />
-          The semifinals games (2) are worth 2 points for a total of 4 points.
-          <br />
-          The finals game (1) is worth 4 points.
-          <br />
-          Correctly pick both teams in the finals you receive 1 bonus point.
-          <br />
-          Add it all up for a total of 47 Points
+          Please see the Rules section for the full rules and regulations
         </Typography>
         <br />
         <Typography variant="h5" gutterBottom component="h2">
-          Tiebreaker
-        </Typography>
-        <Typography component="div">TBD</Typography>
-        <br />
-        <Typography variant="h5" gutterBottom component="h2">
-          The Spread
-        </Typography>
-        <Typography component="div">
-          Each game includes a spread, this is how much the favorite must beat
-          the underdog in order to win. Example: If NCSU is favored by 3.5
-          points they must beat their opponent by at least 4 points to cover the
-          SPREAD and win the point for the game.
-        </Typography>
-        <br />
-        <Typography variant="h5" gutterBottom component="h2">
-          Picking the Final Team
-        </Typography>
-        <Typography component="div">
-          Since teams will have to win their semifinals game to reach the finals
-          it will be more difficult to pick the 2 teams playing in this game and
-          therefore the winner. That is why we are awarding an extra bonus point
-          for getting both finals teams correct. And a whopping 4 points for
-          picking the winner.
-        </Typography>
-        <br />
-        <Typography variant="h5" gutterBottom component="h2">
-          Please Note
-        </Typography>
-        <Typography component="div">
-          You can choose a team to win it’s semi-final game with the spread, and
-          choose the other team to be in the finals. For example if TCU and Navy
-          were playing in the semifinals and Navy is a 10 point underdog, but
-          TCU wins by 7 points. You could choose Navy to win this game with the
-          spread win (2 points) and also pick TCU to move on to the finals,
-          which if you choose both finalists correctly would get you an extra 1
-          point.
-        </Typography>
-        <br />
-        <Typography variant="h5" gutterBottom component="h2">
-          Payout
-        </Typography>
-        <Typography component="div">
-          Last place gets you your $5.00 back
-          <br />
-          1st place = 50% payout
-          <br />
-          2nd place = 25% payout
-          <br />
-          3rd place = 15% payout
-          <br />
-          4th place = 10% payout
-        </Typography>
-        <br />
-        <Typography variant="h4" gutterBottom component="h2">
           The Party
         </Typography>
         <Typography component="div">
