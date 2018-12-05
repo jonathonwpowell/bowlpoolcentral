@@ -6,6 +6,7 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Select from "react-select";
 import makeAnimated from "react-select/lib/animated";
+import Typography from "@material-ui/core/Typography";
 
 class MultiPlayer extends Component {
   state = {
@@ -84,6 +85,9 @@ class MultiPlayer extends Component {
     if (bowlPool && bowlPool.players) {
       return (
         <div>
+          <Typography variant="h5" gutterBottom component="h2">
+            Last Year's Pick Comparer
+          </Typography>
           <Select
             closeMenuOnSelect={false}
             components={makeAnimated()}

@@ -256,6 +256,9 @@ class Dashboard extends React.Component {
           {this.state.page === "Picks" ? <PicksPage /> : null}
           {this.state.page === "Standings" ? (
             <div>
+              <Typography variant="h5" gutterBottom component="h2">
+                Last Year's Results
+              </Typography>
               <PlayerList
                 playerList={this.props.playerList}
                 playerSearch={this.props.playerSearch}
