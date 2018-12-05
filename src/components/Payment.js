@@ -38,7 +38,7 @@ class Payment extends React.Component {
                 &nbsp; or mail in a check. Paypal is $5.50 as Paypal takes a
                 cut. Please remember to pay: the director has a hard time
                 covering payment for everyone. Entries must be received by the
-                first game (Time TBD).
+                first game (12/15/18 at Noon).
               </td>
             </tr>
           </tbody>

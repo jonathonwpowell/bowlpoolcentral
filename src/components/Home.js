@@ -20,8 +20,10 @@ class HomePage extends React.Component {
         <Typography component="div">
           The cost is $5 to enter, you can either pay with Paypal or mail in a
           check. Paypal is $5.50 as Paypal takes a cut. Please remember to pay:
-          the director has a hard time covering payment for everyone. Entries
-          must be received by the first game Dec. 16th at 12:00 PM
+          the director has a hard time covering payment for everyone.{" "}
+          <b>
+            Entries must be received by the first game Dec. 15th at 12:00 PM
+          </b>
         </Typography>
         <br />
         <Typography variant="h5" gutterBottom component="h2">
