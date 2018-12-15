@@ -1,7 +1,7 @@
 export function parseSheet(sheet) {
   var values = sheet;
   var games = createGamesList(values[0]);
-  var winners = createWinnersList(values[3]);
+  var winners = createWinnersList(values[2]);
   var players = createPlayerList(values.slice(3), winners.length);
 
   var bowl = {
