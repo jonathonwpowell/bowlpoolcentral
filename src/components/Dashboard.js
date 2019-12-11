@@ -239,12 +239,12 @@ class Dashboard extends React.Component {
               </ListItemIcon>
               <ListItemText primary="Rules" />
             </ListItem>
-            <ListItem button onClick={this.setPageGames}>
+            {/* <ListItem button onClick={this.setPageGames}>
               <ListItemIcon>
                 <WeekendIcon />
               </ListItemIcon>
               <ListItemText primary="Games" />
-            </ListItem>
+            </ListItem> */}
           </List>
         </Drawer>
         <main className={classes.content}>
@@ -257,7 +257,7 @@ class Dashboard extends React.Component {
           {this.state.page === "Standings" ? (
             <div>
               <Typography variant="h5" gutterBottom component="h2">
-                Current Results
+                Last Year's Results
               </Typography>
               <PlayerList
                 playerList={this.props.playerList}

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Chart from 'react-google-charts';
 import config from "../common/api-config";
 import { load } from "../common/spreadsheet"
 class BowlPool extends Component {
@@ -12,7 +11,7 @@ class BowlPool extends Component {
   render() {
     const {bowlPool, error} = this.state
     if (bowlPool.games) {
-      return <div>{this.state.error}</div>;
+      return <div>{error}</div>;
     }
     return (
       <div></div>

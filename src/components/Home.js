@@ -22,7 +22,7 @@ class HomePage extends React.Component {
           check. Paypal is $5.50 as Paypal takes a cut. Please remember to pay:
           the director has a hard time covering payment for everyone.{" "}
           <b>
-            Entries must be received by the first game Dec. 15th at 12:00 PM
+            Entries must be received by the first game Dec. 20th at 2:00 PM
           </b>
         </Typography>
         <br />
@@ -32,7 +32,7 @@ class HomePage extends React.Component {
         <Typography component="div">
           Please see the Rules section for the full rules and regulations
         </Typography>
-        <br />
+        {/* <br />
         <Typography variant="h5" gutterBottom component="h2">
           The Party
         </Typography>
@@ -40,7 +40,7 @@ class HomePage extends React.Component {
           Details to come. We are planning on having the party on New Year’s day
           this year at Cameron’s address at 8513 Riddle place Raleigh 27615.
           Party details pending.
-        </Typography>
+        </Typography> */}
       </div>
     );
   }

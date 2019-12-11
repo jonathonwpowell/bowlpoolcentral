@@ -9,7 +9,7 @@ class PicksPage extends React.Component {
           title="Pick Now!"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://goo.gl/forms/GceQyNighU3nD2h83"
+          href="https://forms.gle/hXCz8y6N1dGyHGKg8"
         >
           HERE
         </a>
