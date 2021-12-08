@@ -78,7 +78,7 @@ class GamesPage extends React.Component {
         </div>
         <div style={{ marginTop: "30px" }}>
           <Typography variant="h5" gutterBottom component="h2">
-            All Games
+            All Games (2019-2020, come back later for the current year's games)
           </Typography>
           <Table padding={"dense"}>
             <TableHead>{this.getHeaderRow()}</TableHead>

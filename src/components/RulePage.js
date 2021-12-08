@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
+import constants from "../common/constants";
 
 class RulesPage extends React.Component {
   render() {
@@ -19,7 +20,7 @@ class RulesPage extends React.Component {
             border: "0",
             minWidth: "500px"
           }}
-          src="https://docs.google.com/document/d/e/2PACX-1vQqwskChG3xngeC12VwykENXzj5P_gevPZdm42wiGrUYxuvOGEHTOFdH2UkWYVnWGwSV9qGhcqvvXrG/pub?embedded=true"
+          src={constants.rulesUrl}
         />
       </div>
     );

@@ -1,4 +1,5 @@
 import React from "react";
+import constants from "../common/constants";
 
 class PicksPage extends React.Component {
   render() {
@@ -9,10 +10,10 @@ class PicksPage extends React.Component {
           title="Pick Now!"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://forms.gle/hXCz8y6N1dGyHGKg8"
+          href={constants.pickUrl}
         >
           HERE
-        </a>
+        </a>.  Must be completed by {constants.firstGameTime}
       </div>
     );
   }
