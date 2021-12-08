@@ -1,28 +1,40 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
+import constants from "../common/constants";
 
 class HomePage extends React.Component {
   render() {
     return (
-      <div>
+      <div style={{maxWidth: '900px', margin: 'auto'}}>
         <Typography variant="h5" gutterBottom component="h2">
           Welcome to Bowl Pool Central
         </Typography>
         <Typography component="div">
           Thanks for participating in the bowl pool this year! Please make your
-          picks by selecting the picks option on the left and filling out the
-          google form
+          picks by filling out{" "}
+          <a
+            title="Pick URL"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={constants.pickUrl}
+          >
+          this form
+          </a>.{" "}
+          <b>
+            Entries must be received by the first game {constants.firstGameTime}
+          </b>
         </Typography>
         <br />
         <Typography variant="h5" gutterBottom component="h2">
           Payment
         </Typography>
         <Typography component="div">
-          The cost is $5 to enter, you can either pay with Paypal or mail in a
-          check. Paypal is $5.50 as Paypal takes a cut. Please remember to pay:
-          the director has a hard time covering payment for everyone.{" "}
+          The cost is $5 to enter, you can either pay with Paypal, Venmo, or mail in a
+          check. Paypal is $5.50 as Paypal takes a cut. Please remember to pay,
+          the director has a hard time covering payment for everyone.  Click on the payment
+          menu item to pay.{" "}
           <b>
-            Entries must be received by the first game Dec. 20th at 2:00 PM
+            Entries must be received by the first game {constants.firstGameTime}
           </b>
         </Typography>
         <br />
