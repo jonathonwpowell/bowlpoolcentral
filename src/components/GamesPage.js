@@ -15,7 +15,7 @@ class GamesPage extends React.Component {
           {game.time.toLocaleDateString()}
         </TableCell>
         <TableCell key={game.name + "_time"}>
-          {game.time.toLocaleTimeString()}
+          {game.time.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', timeZoneName: 'short'})}
         </TableCell>
         <TableCell key={game.name + "_fav"}>{game.favorite}</TableCell>
         <TableCell key={game.name + "_under"}>{game.underdog}</TableCell>
@@ -78,7 +78,7 @@ class GamesPage extends React.Component {
         </div>
         <div style={{ marginTop: "30px" }}>
           <Typography variant="h5" gutterBottom component="h2">
-            All Games (2019-2020, come back later for the current year's games)
+            All Games for 2021-2022
           </Typography>
           <Table padding={"dense"}>
             <TableHead>{this.getHeaderRow()}</TableHead>

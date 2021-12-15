@@ -27,7 +27,7 @@ export function loadGamesSheet(callback) {
   window.gapi.client.load("sheets", "v4", () => {
     window.gapi.client.sheets.spreadsheets.values
       .get({
-        spreadsheetId: config.spreadsheetId,
+        spreadsheetId: config.gameScheduleSheetId,
         range: "Games!A2:AZ100"
       })
       .then(
