@@ -86,7 +86,7 @@ class MultiPlayer extends Component {
       return (
         <div>
           <Typography variant="h5" gutterBottom component="h2">
-            Pick Comparer (2019-2020, come back after games start for the current results)
+            Pick Comparer
           </Typography>
           <Select
             closeMenuOnSelect={false}

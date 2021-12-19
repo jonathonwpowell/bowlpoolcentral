@@ -257,7 +257,7 @@ class Dashboard extends React.Component {
           {this.state.page === "Standings" ? (
             <div>
               <Typography variant="h5" gutterBottom component="h2">
-                Results from 2019-2020 (Come back after games start for results from this year)
+                Results
               </Typography>
               <PlayerList
                 playerList={this.props.playerList}
