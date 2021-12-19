@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import WinsBar from "./components/WinsBar";
 import config from "./common/api-config";
-import PlayerList from "./components/PlayerList";
-import MultiPlayer from "./components/MultiPlayer";
 import Paper from "@material-ui/core/Paper";
 import { loadMainSheet, loadGamesSheet } from "./common/spreadsheet";
 import Dashboard from "./components/Dashboard";
@@ -68,40 +65,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <header className="App-header">
-            <Menu setPage={this.setPage} />
-            <div className={"site-name"}>Bowl Pool Central</div>
-          </header> */}
-        {this.state.page === "Home" ? (
-          <Paper>
-            <div>
-              <Dashboard
-                bowlPool={this.state.bowlPool}
-                playerList={this.state.searchPlayerList}
-                playerSearch={this.playerSearch.bind(this)}
-                gameDetails={this.state.gameDetails}
-              />
-            </div>
-          </Paper>
-        ) : null}
-        {this.state.page === "PlayerList" ? (
-          <Paper>
-            <PlayerList
+        <Paper>
+          <div>
+            <Dashboard
+              bowlPool={this.state.bowlPool}
               playerList={this.state.searchPlayerList}
               playerSearch={this.playerSearch.bind(this)}
+              gameDetails={this.state.gameDetails}
             />
-          </Paper>
-        ) : null}
-        {this.state.page === "Wins" ? (
-          <Paper>
-            <WinsBar bowlPool={this.state.bowlPool} />
-          </Paper>
-        ) : null}
-        {this.state.page === "MultiPlayer" ? (
-          <Paper>
-            <MultiPlayer bowlPool={this.state.bowlPool} />
-          </Paper>
-        ) : null}
+          </div>
+        </Paper>
       </div>
     );
   }

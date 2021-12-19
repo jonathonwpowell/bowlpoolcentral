@@ -30,6 +30,8 @@ import MultiPlayer from "./MultiPlayer";
 import PicksPage from "./PicksPage";
 import RulesPage from "./RulePage";
 import GamesPage from "./GamesPage";
+import { getQueryStringValue } from "../common/query-param-helper.js"
+import constants from "../common/constants";
 
 const drawerWidth = 240;
 
@@ -115,6 +117,13 @@ class Dashboard extends React.Component {
     open: false,
     page: "Home"
   };
+
+  constructor(props) {
+    super(props);
+    if (getQueryStringValue(constants.multiplayerUrlParam)) {
+      this.state.page = "Player Compare";
+    }
+  }
 
   setPage = value => {
     this.setState({ page: value });

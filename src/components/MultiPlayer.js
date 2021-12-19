@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { setQueryStringValue, getQueryStringValue } from "../common/query-param-helper.js"
 import Table from "@material-ui/core/Table";
 import TableBody from "@material-ui/core/TableBody";
 import TableCell from "@material-ui/core/TableCell";
@@ -7,6 +8,7 @@ import TableRow from "@material-ui/core/TableRow";
 import Select from "react-select";
 import makeAnimated from "react-select/lib/animated";
 import Typography from "@material-ui/core/Typography";
+import constants from "../common/constants";
 
 class MultiPlayer extends Component {
   state = {
@@ -17,6 +19,8 @@ class MultiPlayer extends Component {
     this.setState({
       selectedPlayers: value
     });
+    const playerNames = value.map(v => v.name).join(",");
+    setQueryStringValue(constants.multiplayerUrlParam,playerNames);
   };
 
   render() {
@@ -83,6 +87,21 @@ class MultiPlayer extends Component {
     };
 
     if (bowlPool && bowlPool.players) {
+      // Add players from url param if they exist
+      const playersFromUrl = getQueryStringValue(constants.multiplayerUrlParam)
+      if (playersFromUrl) {
+        const possiblePlayers = playersFromUrl.split(",");
+        for (var i in possiblePlayers) {
+          const matchingPlayer = bowlPool.players.find(actualPlayer => actualPlayer.label === possiblePlayers[i]);
+          if (matchingPlayer) {
+            const playerAlreadySelected = this.state.selectedPlayers.find(s => s.name === matchingPlayer.name);
+            if (!playerAlreadySelected) {
+              this.state.selectedPlayers.push(matchingPlayer);
+            }
+          }
+        }
+      }
+
       return (
         <div>
           <Typography variant="h5" gutterBottom component="h2">
@@ -94,6 +113,7 @@ class MultiPlayer extends Component {
             isMulti
             options={bowlPool.players}
             onChange={this.handleChange}
+            value={this.state.selectedPlayers}
           />
           <Table padding={"none"}>
             <TableHead>

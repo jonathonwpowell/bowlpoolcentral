@@ -4,4 +4,5 @@ export default {
     venmoUser: "@Cameron-Powell-38",
     rulesUrl: "https://docs.google.com/document/d/e/2PACX-1vS1QzPUx7yalXolgQLfpvsJuXiSPPpEKPxGaubQc8cTnqzbom2yH0dcQbQC-QLLMBckANzBfFmHvOD9/pub?embedded=true",
     firstGameTime: "Dec. 17th at 12 P.M. ET",
+    multiplayerUrlParam: "displayPlayers",
 }
