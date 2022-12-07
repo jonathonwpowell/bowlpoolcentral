@@ -1,5 +1,6 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
 import constants from "../common/constants";
 
 class HomePage extends React.Component {
@@ -23,6 +24,11 @@ class HomePage extends React.Component {
           <b>
             Entries must be received by the first game {constants.firstGameTime}
           </b>
+          <p>
+            <Button variant="contained" className="pick-button" href={constants.pickUrl}>
+              Make Your Picks!
+            </Button>
+          </p>
         </Typography>
         <br />
         <Typography variant="h5" gutterBottom component="h2">

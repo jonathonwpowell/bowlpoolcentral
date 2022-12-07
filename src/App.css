@@ -25,6 +25,16 @@
   display: inline;
 }
 
+.pick-button {
+  background-color: #3f51b5 !important;
+  color: white !important;
+}
+
+.pick-button:hover {
+  background-color: blue !important;
+  color: white !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
