@@ -5,6 +5,7 @@ import TableCell from "@material-ui/core/TableCell";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Typography from "@material-ui/core/Typography";
+import constants from "../common/constants";
 
 class GamesPage extends React.Component {
   gameDisplay = game => {
@@ -78,7 +79,7 @@ class GamesPage extends React.Component {
         </div>
         <div style={{ marginTop: "30px" }}>
           <Typography variant="h5" gutterBottom component="h2">
-            All Games for 2021-2022
+            All Games {constants.yearIfOld}
           </Typography>
           <Table padding={"dense"}>
             <TableHead>{this.getHeaderRow()}</TableHead>
