@@ -107,6 +107,10 @@ class MultiPlayer extends Component {
           <Typography variant="h5" gutterBottom component="h2">
             Pick Comparer{constants.yearIfOld}
           </Typography>
+          <Typography component="div">
+            You can copy or bookmark the URL once you select the people you want to compare with, and coming back to that URL will pre-fill your selection.
+          </Typography>
+          <br />
           <Select
             closeMenuOnSelect={false}
             components={makeAnimated()}
