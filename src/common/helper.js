@@ -23,7 +23,8 @@ export function parseGamesPage(sheet) {
       network: sheet[i][3],
       favorite: sheet[i][4],
       underdog: sheet[i][5],
-      spread: sheet[i][6]
+      spread: sheet[i][6],
+      points: sheet[i][7],
     };
     gamesObject[gameObject.name] = gameObject;
   }

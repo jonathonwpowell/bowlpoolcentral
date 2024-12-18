@@ -5,6 +5,6 @@ export default {
     rulesUrl: "https://docs.google.com/document/d/e/2PACX-1vTIzeVmIwu7my0b7FQ65quyVVlge_-uTAsmNeroi_zP_oF_TShzZxugMHdOp7fZ-9VQEChHnkJHhrrD/pub?embedded=true",
     firstGameTime: "Dec. 14th at Noon Eastern",
     multiplayerUrlParam: "displayPlayers",
-    yearIfOld: " (2023 - 2024)",
-    // yearIfOld: "",
+    // yearIfOld: " (2023 - 2024)",
+    yearIfOld: "",
 }

@@ -39,7 +39,7 @@ class PlayerList extends React.Component {
             <Table>
                 <TableHead>
                     <TableRow>
-                        <TableCell>Wins</TableCell>
+                        <TableCell>Points</TableCell>
                         <TableCell>Name</TableCell>
                     </TableRow>
                 </TableHead>

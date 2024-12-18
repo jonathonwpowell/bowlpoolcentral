@@ -22,6 +22,7 @@ class GamesPage extends React.Component {
         <TableCell key={game.name + "_under"}>{game.underdog}</TableCell>
         <TableCell key={game.name + "_spread"}>{game.spread}</TableCell>
         <TableCell key={game.name + "_net"}>{game.network}</TableCell>
+        <TableCell key={game.name + "_points"}>{game.points}</TableCell>
       </TableRow>
     );
   };
@@ -36,6 +37,7 @@ class GamesPage extends React.Component {
         <TableCell>Underdog</TableCell>
         <TableCell>Spread</TableCell>
         <TableCell>Network</TableCell>
+        <TableCell>Points</TableCell>
       </TableRow>
     );
   };

@@ -17,9 +17,9 @@ class WinsBar extends Component {
             histogram: {
               bucketSize: 2
             },
-            title: "Win Histogram",
+            title: "Points Histogram",
             hAxis: {
-              title: "Wins"
+              title: "Points"
             },
             vAxis: {
               title: "Frequency"

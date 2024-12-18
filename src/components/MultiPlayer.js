@@ -34,7 +34,7 @@ class MultiPlayer extends Component {
         var playerWins = this.state.selectedPlayers[key].wins;
         cells.push(
           <TableCell key={playerName + "-Name"}>
-            {playerName + " (" + playerWins + " Wins)"}
+            {playerName + " (" + playerWins + " Points)"}
           </TableCell>
         );
       }
