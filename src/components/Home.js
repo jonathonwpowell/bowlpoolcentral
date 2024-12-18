@@ -45,7 +45,14 @@ class HomePage extends React.Component {
         </Typography>
         <br />
         <Typography variant="h5" gutterBottom component="h2">
-          Details
+          Seeing Picks, Standings, and the schedule
+        </Typography>
+        <Typography component="div">
+          Use the different menu options to see your picks, compare your picks to your competitors, the current standings, and the game schedule
+        </Typography>
+
+        <Typography variant="h5" gutterBottom component="h2">
+          What are the Rules?
         </Typography>
         <Typography component="div">
           Please see the Rules section for the full rules and regulations
